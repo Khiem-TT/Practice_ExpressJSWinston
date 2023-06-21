@@ -1,6 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
-import {logger} from "./src/winston";
+import {logger} from "./src/logger/winston";
 
 const port = 8000;
 const app = express();
